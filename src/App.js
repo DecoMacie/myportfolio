@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <NavBar navBarItems={navBarItems} />
-      <p>Deco Deco</p>
+      <h1 className="text-3xl font-bold underline">Deco Deco</h1>
     </div>
   );
 }
