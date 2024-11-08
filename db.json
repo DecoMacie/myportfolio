@@ -1,0 +1,36 @@
+{
+    "navbar":[
+        {
+        "title":"HOME",
+        "type":"Button",
+        "id":"nav_1"
+        },
+        {
+            "title":"SERVICES",
+            "type":"Button",
+            "id":"nav_2"
+        },
+        {
+            "title":"PORTFOLIO",
+            "type":"Button",
+            "id":"nav_3"
+        },
+        {
+            "title":"BLOG",
+            "type":"Button",
+            "id":"nav_4"
+        },
+        {
+            "title":"EDUCATION",
+            "type":"Button",
+            "id":"nav_5"
+        },
+        {
+            "title":"CONNECT",
+            "type":"Button",
+            "id":"nav_6"
+        }
+    ],
+    "sidebar":[],
+    "content":[]
+}
