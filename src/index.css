@@ -5,8 +5,3 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
-p {
-  font-family: verdana;
-  font-size: 40px;
-}
