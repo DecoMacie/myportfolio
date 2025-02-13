@@ -1,6 +1,7 @@
-import { useContext, useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 import NavBar from "./components/NavBar";
 import navBarContext from "./context/navBar";
+import NavBarItem from "./components/NavBarItem";
 
 function App() {
   const { fetchNavBarItems, navBarItems } = useContext(navBarContext);
@@ -9,10 +10,12 @@ function App() {
     fetchNavBarItems();
   }, []);
 
+  // const [navSelected, setNavSelected] = useState("nav_1");
+
   return (
     <div>
       <NavBar navBarItems={navBarItems} />
-      <h1 className="text-3xl font-bold underline">Deco Deco</h1>
+      {/* <NavBarItem item={navSelected} /> */}
     </div>
   );
 }

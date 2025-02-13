@@ -11,6 +11,11 @@ function Provider({ children }) {
     setNavBarItems(response.data);
   }, []);
 
+  // const handleNavBarItem = setNavSelected((e) => {
+  //   return "deco";
+  //   // return e.target.id;
+  // });
+
   const valueToShare = {
     navBarItems,
     fetchNavBarItems,
